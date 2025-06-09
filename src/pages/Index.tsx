@@ -13,6 +13,7 @@ const Index = () => {
     { name: 'Home', url: '#hero', icon: Home },
     { name: 'About', url: '#about', icon: User },
     { name: 'Services', url: '#services', icon: Briefcase },
+    { name: 'Team', url: '#team', icon: User },
     { name: 'Contact', url: '#contact', icon: FileText }
   ];
 
