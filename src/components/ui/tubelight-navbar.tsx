@@ -29,6 +29,33 @@ export function NavBar({ items, className }: NavBarProps) {
     return () => window.removeEventListener("resize", handleResize)
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = items.map(item => {
+        const id = item.url.slice(1) // Remove the # from the URL
+        return {
+          name: item.name,
+          element: document.getElementById(id)
+        }
+      }).filter(section => section.element)
+
+      const currentSection = sections.find(section => {
+        if (!section.element) return false
+        const rect = section.element.getBoundingClientRect()
+        return rect.top <= 100 && rect.bottom >= 100
+      })
+
+      if (currentSection) {
+        setActiveTab(currentSection.name)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    handleScroll() // Call once to set initial state
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [items])
+
   return (
     <div
       className={cn(
