@@ -57,13 +57,24 @@ export function NavBar({ items, className }: NavBarProps) {
   }, [items])
 
   return (
-    <div
-      className={cn(
-        "fixed bottom-0 sm:top-0 left-1/2 -translate-x-1/2 z-50 mb-6 sm:pt-6 h-14",
-        className,
-      )}
-    >
-      <div className="flex items-center gap-3 bg-background/5 border border-border backdrop-blur-lg py-1 px-1 rounded-full shadow-lg">
+    <>
+      {/* Logo - Top Left */}
+      <div className="fixed top-4 left-4 z-50 hidden sm:block">
+        <img 
+          src="/lovable-uploads/9c215b1a-3889-4b8e-993e-f247e5a03e1d.png"
+          alt="Clientura Logo"
+          className="h-12 w-auto object-contain"
+        />
+      </div>
+
+      {/* Navigation */}
+      <div
+        className={cn(
+          "fixed bottom-0 sm:top-0 left-1/2 -translate-x-1/2 z-50 mb-6 sm:pt-6 h-14",
+          className,
+        )}
+      >
+        <div className="flex items-center gap-3 bg-background/5 border border-border backdrop-blur-lg py-1 px-1 rounded-full shadow-lg">
         {items.map((item) => {
           const Icon = item.icon
           const isActive = activeTab === item.name
@@ -110,7 +121,8 @@ export function NavBar({ items, className }: NavBarProps) {
             </button>
           )
         })}
+        </div>
       </div>
-    </div>
+    </>
   )
 }

@@ -65,19 +65,6 @@ const HeroSection = () => {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            {/* Logo */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
-              className="mb-8 flex justify-center"
-            >
-              <img 
-                src="/lovable-uploads/9c215b1a-3889-4b8e-993e-f247e5a03e1d.png"
-                alt="Clientura Logo"
-                className="h-24 md:h-32 w-auto object-contain"
-              />
-            </motion.div>
 
             {/* Main heading */}
             <motion.div
