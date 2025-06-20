@@ -1,11 +1,11 @@
-# Welcome to your Lovable project
+# Welcome to your my react project
 
 ## Project info
 
 
 ## How can I edit this code 
 
-
+just download the zip 
 
 **Use Lovable**
 
