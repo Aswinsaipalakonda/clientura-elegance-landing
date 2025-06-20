@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { HeroGeometric } from "@/components/ui/shape-landing-hero";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   const scrollToServices = () => {
@@ -6,49 +8,133 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/10"></div>
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center max-w-4xl mx-auto fade-in">
-          {/* Logo */}
-          <div className="mb-8 flex justify-center">
-            <img 
-              src="/lovable-uploads/9c215b1a-3889-4b8e-993e-f247e5a03e1d.png"
-              alt="Clientura Logo"
-              className="h-32 w-auto object-contain"
-            />
-          </div>
-          
-          {/* Main heading */}
-          <h1 className="font-playfair text-5xl md:text-7xl font-bold text-primary mb-6 fade-in-up stagger-1">
-            CLIENTURA
-          </h1>
-          
-          {/* Tagline */}
-          <h2 className="font-playfair text-2xl md:text-3xl text-accent font-medium mb-8 fade-in-up stagger-2">
-            Strategize. Innovate. Elevate.
-          </h2>
-          
-          {/* Description */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto fade-in-up stagger-3">
-            Transforming businesses through strategic consultancy, innovative solutions, and sustainable growth partnerships.
-          </p>
-          
-          {/* CTA Button */}
-          <div className="fade-in-up stagger-4">
-            <Button 
-              onClick={scrollToServices}
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+    <div className="relative">
+      {/* Custom Hero Component with Clientura branding */}
+      <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-clientura-navy to-clientura-navy/90">
+        {/* Background decoration with brand colors */}
+        <div className="absolute inset-0 bg-gradient-to-br from-clientura-gold/[0.08] via-transparent to-clientura-gold/[0.05] blur-3xl" />
+
+        {/* Geometric shapes with brand colors */}
+        <div className="absolute inset-0 overflow-hidden">
+          <motion.div
+            initial={{ opacity: 0, y: -150, rotate: -3 }}
+            animate={{ opacity: 1, y: 0, rotate: 12 }}
+            transition={{ duration: 2.4, delay: 0.3, ease: [0.23, 0.86, 0.39, 0.96] }}
+            className="absolute left-[-10%] md:left-[-5%] top-[15%] md:top-[20%]"
+          >
+            <motion.div
+              animate={{ y: [0, 15, 0] }}
+              transition={{ duration: 12, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+              className="w-[600px] h-[140px] relative"
             >
-              Explore Services
-            </Button>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-clientura-gold/[0.15] to-transparent backdrop-blur-[2px] border-2 border-clientura-gold/[0.2] shadow-[0_8px_32px_0_rgba(217,169,0,0.15)]" />
+            </motion.div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: -150, rotate: 0 }}
+            animate={{ opacity: 1, y: 0, rotate: -15 }}
+            transition={{ duration: 2.4, delay: 0.5, ease: [0.23, 0.86, 0.39, 0.96] }}
+            className="absolute right-[-5%] md:right-[0%] top-[70%] md:top-[75%]"
+          >
+            <motion.div
+              animate={{ y: [0, 15, 0] }}
+              transition={{ duration: 12, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+              className="w-[500px] h-[120px] relative"
+            >
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-clientura-light/[0.12] to-transparent backdrop-blur-[2px] border-2 border-clientura-light/[0.2] shadow-[0_8px_32px_0_rgba(255,255,255,0.1)]" />
+            </motion.div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: -150, rotate: 7 }}
+            animate={{ opacity: 1, y: 0, rotate: -8 }}
+            transition={{ duration: 2.4, delay: 0.4, ease: [0.23, 0.86, 0.39, 0.96] }}
+            className="absolute left-[5%] md:left-[10%] bottom-[5%] md:bottom-[10%]"
+          >
+            <motion.div
+              animate={{ y: [0, 15, 0] }}
+              transition={{ duration: 12, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+              className="w-[300px] h-[80px] relative"
+            >
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-clientura-gold/[0.1] to-transparent backdrop-blur-[2px] border-2 border-clientura-gold/[0.15] shadow-[0_8px_32px_0_rgba(217,169,0,0.1)]" />
+            </motion.div>
+          </motion.div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 container mx-auto px-4 md:px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Logo */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+              className="mb-8 flex justify-center"
+            >
+              <img 
+                src="/lovable-uploads/9c215b1a-3889-4b8e-993e-f247e5a03e1d.png"
+                alt="Clientura Logo"
+                className="h-24 md:h-32 w-auto object-contain"
+              />
+            </motion.div>
+
+            {/* Main heading */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <h1 className="font-playfair text-4xl sm:text-6xl md:text-8xl font-bold mb-6 md:mb-8 tracking-tight">
+                <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/80">
+                  CLIENTURA
+                </span>
+              </h1>
+            </motion.div>
+
+            {/* Tagline */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.9, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <h2 className="font-playfair text-2xl md:text-4xl font-medium mb-8 bg-clip-text text-transparent bg-gradient-to-r from-clientura-gold via-clientura-light to-clientura-gold">
+                Strategize. Innovate. Elevate.
+              </h2>
+            </motion.div>
+
+            {/* Description */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.1, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <p className="text-base sm:text-lg md:text-xl text-white/60 mb-12 leading-relaxed font-light tracking-wide max-w-2xl mx-auto px-4">
+                Transforming businesses through strategic consultancy, innovative solutions, and sustainable growth partnerships.
+              </p>
+            </motion.div>
+
+            {/* CTA Button */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.3, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <Button 
+                onClick={scrollToServices}
+                size="lg"
+                className="bg-clientura-gold hover:bg-clientura-gold/90 text-clientura-navy px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              >
+                Explore Services
+              </Button>
+            </motion.div>
           </div>
         </div>
+
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-clientura-navy via-transparent to-clientura-navy/80 pointer-events-none" />
       </div>
-    </section>
+    </div>
   );
 };
 
