@@ -4,7 +4,8 @@
 
 
 ## How can I edit this code 
-Here is the code deployeddddddddddddddddddddd
+Here is the entrprenur how to income and insert the code 
+
 
 **Use Lovable**
 
