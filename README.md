@@ -4,14 +4,15 @@
 
 
 ## How can I edit this code 
-Here is the entrprenur how to income and insert the code 
+
 
 
 **Use Lovable**
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/64538104-89f8-4599-9f59-d3573cb848c0) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Lovable emo naku nachhindi
+
 
 **Use your preferred IDE**
 
