@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-just download the zip 
+just download the zip file and extract it in 
 
 **Use Lovable**
 
