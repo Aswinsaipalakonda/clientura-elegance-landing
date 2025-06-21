@@ -55,12 +55,13 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- HTML
 
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/64538104-89f8-4599-9f59-d3573cb848c0) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
-yes, absolutely
+
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
