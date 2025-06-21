@@ -13,9 +13,7 @@ Simply visit the [Lovable Project](https://lovable.dev/projects/64538104-89f8-45
 
 **Use your preferred IDE**
 
-Updated README with today's date 
-
-ksh
+Updated asdasnsf
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
