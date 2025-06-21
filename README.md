@@ -62,5 +62,3 @@ Simply open [Lovable](https://lovable.dev/projects/64538104-89f8-4599-9f59-d3573
 
 ## Can I connect a custom domain to my Lovable project?
 
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
