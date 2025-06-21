@@ -13,7 +13,7 @@ Simply visit the [Lovable Project](https://lovable.dev/projects/64538104-89f8-45
 **Use your preferred IDE**
 
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The only requirement is having Node.js & npm installed 
 
 Follow these steps:
 
@@ -54,7 +54,7 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-- CSS
+
 
 ## How can I deploy this project?
 
