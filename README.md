@@ -13,7 +13,6 @@ Simply visit the [Lovable Project](https://lovable.dev/projects/64538104-89f8-45
 
 **Use your preferred IDE**
 
-Updated asdasnsf
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -65,6 +64,6 @@ Simply open [Lovable](https://lovable.dev/projects/64538104-89f8-4599-9f59-d3573
 
 Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+to connect ha aama
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
