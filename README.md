@@ -8,7 +8,7 @@
 
 **Use Lovable**
 
-Simply visit my git profile and 
+Simply visit my git profile and download 
 
 **Use your preferred IDE**
 
