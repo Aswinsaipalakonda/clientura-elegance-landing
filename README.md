@@ -8,7 +8,7 @@
 
 **Use Lovable**
 
-Simply visit my git profile and download the ZIP file. After that extract
+Simply visit my git profile and download the ZIP file. After that extract file 
 
 **Use your preferred IDE**
 
