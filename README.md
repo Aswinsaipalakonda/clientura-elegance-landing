@@ -8,7 +8,7 @@
 
 **Use Lovable**
 
-Simply
+Simply visit
 
 **Use your preferred IDE**
 
