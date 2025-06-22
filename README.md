@@ -8,7 +8,7 @@
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/64538104-89f8-4599-9f59-d3573cb848c0) and start prompting.
+Simply
 
 **Use your preferred IDE**
 
