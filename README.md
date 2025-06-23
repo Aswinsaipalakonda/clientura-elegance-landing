@@ -5,10 +5,7 @@
 
 ## How can I edit this code 
 
-
-**Use Lovable**
-
-Simply visit my git profile and download the ZIP file. After that extract file 
+Download 
 
 **Use your preferred IDE**
 
