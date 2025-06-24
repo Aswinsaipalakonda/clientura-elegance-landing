@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-Welcome to my GitHub
+Welcome to my GitHub repo
 
 **Use your preferred IDE**
 
