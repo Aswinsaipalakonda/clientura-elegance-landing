@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-Welcome to my GitHub repo and download the ZIP file or clone the 
+Welcome to my GitHub repo and download the ZIP file or clone the code 
 
 **Use your preferred IDE**
 
