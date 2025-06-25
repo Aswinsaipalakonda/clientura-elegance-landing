@@ -6,7 +6,7 @@
 ## How can I edit this code 
 
 Welcome to my GitHub repo and download the ZIP file or clone the code using git clone command
-Welcome to my GitHub repo and need some installs like Git and npm 
+Welcome to my GitHub repo and need some installs like Git and npm installed 
 
 **Use your preferred IDE**
 
