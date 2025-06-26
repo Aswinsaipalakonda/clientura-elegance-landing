@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-Welcome to my GitHub repo and install node.js
+Welcome to my GitHub repo and install git
 
 **Use your preferred IDE**
 
