@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-Welcome to my GitHub repo and install git v2.8
+Welcome to my GitHub repo and install git v2.80 from 
 
 **Use your preferred IDE**
 
