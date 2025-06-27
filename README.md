@@ -6,7 +6,7 @@
 ## How can I edit this code 
 
 Welcome to my GitHub repo and install git v2.80 from official website 
-Welcome 
+Welcome to 
 **Use your preferred IDE**
 
 
