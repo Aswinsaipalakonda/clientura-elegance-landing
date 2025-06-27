@@ -5,7 +5,6 @@
 
 ## How can I edit this code 
 
-official website 
 Welcome to my GitHub repo and install git
 **Use your preferred IDE**
 
