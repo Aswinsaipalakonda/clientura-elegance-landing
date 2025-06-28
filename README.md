@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-Just 
+Just copy 
 
 
 **Use your preferred IDE**
