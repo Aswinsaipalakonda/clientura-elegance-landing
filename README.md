@@ -5,7 +5,7 @@
 
 ## How can I edit this code 
 
-Just copy the repo and use git clone as like given 
+Just copy the repo and use git clone as like given below.
 
 
 **Use your preferred IDE**
