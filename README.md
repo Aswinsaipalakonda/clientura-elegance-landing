@@ -6,7 +6,7 @@
 ## How can I edit this code 
 
 Just copy the repo and use git clone as like given below.
-Code open the repo and give a star to 
+Code open the repo and give a star to the 
 
 
 **Use your preferred IDE**
