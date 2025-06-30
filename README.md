@@ -4,7 +4,7 @@
 
 
 ## How can I edit this code 
-Just clone the repo to your 
+Just clone the repo to your CMD 
 
 **Use your preferred IDE**
 
