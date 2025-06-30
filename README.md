@@ -4,7 +4,7 @@
 
 
 ## How can I edit this code 
-Just 
+Just clone 
 
 **Use your preferred IDE**
 
