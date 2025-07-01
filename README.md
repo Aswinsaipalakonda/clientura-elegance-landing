@@ -1,7 +1,7 @@
 # Welcome to your my react project
 
 ## Project info
-It is a website for a 
+It is a website for a digital 
 
 ## How can I edit this code 
 Just clone the repo to your CMD using git clone
