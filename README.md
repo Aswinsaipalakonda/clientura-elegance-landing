@@ -4,9 +4,6 @@
 It is a website for a digital marketing named Clientura providing SEO, Websites and many more.
 
 
-## How can I edit this code 
-Just clone the repo to your CMD using git clone
-Use gud night 🌃 and good morning 🌄 and good afternoon 🌻 
 
 **Use your preferred IDE**
 
