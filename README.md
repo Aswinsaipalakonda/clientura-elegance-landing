@@ -6,7 +6,7 @@ It is a website for a digital marketing named Clientura providing SEO, Websites 
 
 ## How can I edit this code 
 Just clone the repo to your CMD using git clone
-Use 
+Use gud 
 
 **Use your preferred IDE**
 
