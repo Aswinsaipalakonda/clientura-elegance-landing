@@ -2,7 +2,7 @@
 
 ## Project info
 It is a website for a digital marketing named Clientura providing SEO, Websites and many more.
-Make more websites like this using AI code editors
+
 
 ## How can I edit this code 
 Just clone the repo to your CMD using git clone
