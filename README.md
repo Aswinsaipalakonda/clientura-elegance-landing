@@ -1,7 +1,7 @@
 # Welcome to your my react project
 
 ## Project info
-It is a website for a digital marketing named Clientura providing SEO, Websites and many more.
+It is a website for a digital marketing named Clientura providing SEO, Websites and many 
 
 
 
