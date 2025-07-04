@@ -1,7 +1,7 @@
 # Welcome to your my react project
 
 ## Project info
-It is a website for a digital marketing EO, Websites and m
+It is a website for a digital marketing EO, Websites 
 
 **Use your preferred IDE**
 
