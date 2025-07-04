@@ -8,7 +8,7 @@ It is a website for a digital marketing ntura EO, Websites and many
 **Use your preferred IDE**
 
 
-The only requirement is having Node.js & npm installed 
+The only requirement is having Node.js & npm 
 
 Follow these steps:
 
