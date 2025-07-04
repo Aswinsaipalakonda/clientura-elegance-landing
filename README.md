@@ -6,7 +6,7 @@ It is a website for a digital marketing EO, Websites
 **Use your preferred IDE**
 
 
-The only requirement is having Node.
+The only requirement is having
 
 Follow these steps:
 
