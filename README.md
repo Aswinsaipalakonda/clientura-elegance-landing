@@ -1,7 +1,7 @@
 # Welcome to your my react project
 
 ## Project info
-It is a 
+It is a sleek
 
 **Use your preferred IDE**
 
