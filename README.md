@@ -1,8 +1,7 @@
 # Welcome to your my react project
 
 ## Project info
-It is a sleek wesbite and responsive website and  
-
+It is a sleek wesbite and responsive website
 **Use your preferred IDE**
 
 
