@@ -6,7 +6,7 @@
 **Use your preferred IDE**
 
 
-The only requirement is
+The only requirement
 Follow these steps:
 
 ```sh
