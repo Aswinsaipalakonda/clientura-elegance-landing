@@ -6,7 +6,7 @@
 **Use your preferred IDE**
 
 
-The only requirement is VS Code and bash terminal.
+The only requirement is VS Code and bash 
 
 Follow these steps:
 
