@@ -6,7 +6,7 @@
 **Use your preferred IDE**
 
 
-The only requirement is VS Code and
+The only requirement is VS Code
 
 Follow these steps:
 
