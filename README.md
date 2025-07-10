@@ -4,7 +4,8 @@
 
 
 **Use your preferred IDE**
-The 
+The Git 
+
 Follow these steps:
 
 ```sh
