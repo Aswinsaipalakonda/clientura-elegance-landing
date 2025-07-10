@@ -4,7 +4,7 @@
 
 
 **Use your preferred IDE**
-The Git 
+The Git and VS CODE
 
 Follow these steps:
 
