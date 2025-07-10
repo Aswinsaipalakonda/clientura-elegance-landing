@@ -6,8 +6,7 @@
 **Use your preferred IDE**
 
 
-The only requirement is VS
-
+The only requirement is
 Follow these steps:
 
 ```sh
