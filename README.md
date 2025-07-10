@@ -6,7 +6,7 @@
 **Use your preferred IDE**
 
 
-The only requirement is VS Code and bash amma
+The only requirement is VS Code and amma
 
 Follow these steps:
 
